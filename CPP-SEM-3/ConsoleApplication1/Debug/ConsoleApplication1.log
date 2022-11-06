@@ -1,0 +1,21 @@
+﻿  ConsoleApplication1.cpp
+E:\Learning\4-sem\OOP\7laba\ConsoleApplication1\Header.h(19,22): warning C4018: <: несоответствие типов со знаком и без знака
+  File.cpp
+E:\Learning\4-sem\OOP\7laba\ConsoleApplication1\Header.h(19,22): warning C4018: <: несоответствие типов со знаком и без знака
+  Interface.cpp
+E:\Learning\4-sem\OOP\7laba\ConsoleApplication1\Header.h(19,22): warning C4018: <: несоответствие типов со знаком и без знака
+  myExeption.cpp
+  Party.cpp
+E:\Learning\4-sem\OOP\7laba\ConsoleApplication1\Header.h(19,22): warning C4018: <: несоответствие типов со знаком и без знака
+  Person.cpp
+E:\Learning\4-sem\OOP\7laba\ConsoleApplication1\Header.h(19,22): warning C4018: <: несоответствие типов со знаком и без знака
+  Queue.cpp
+  Teacher.cpp
+E:\Learning\4-sem\OOP\7laba\ConsoleApplication1\Header.h(19,22): warning C4018: <: несоответствие типов со знаком и без знака
+  Teacher_Party.cpp
+E:\Learning\4-sem\OOP\7laba\ConsoleApplication1\Header.h(19,22): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  LINK : не найден или не выполнена сборка E:\Learning\4-sem\OOP\7laba\Debug\ConsoleApplication1.exe при последней инкрементной компоновке; выполняется полная компоновка
+ConsoleApplication1.obj : error LNK2019: ссылка на неразрешенный внешний символ "class std::basic_ifstream<char,struct std::char_traits<char> > & __cdecl operator>>(class std::basic_ifstream<char,struct std::char_traits<char> > &,class Party &)" (??5@YAAAV?$basic_ifstream@DU?$char_traits@D@std@@@std@@AAV01@AAVParty@@@Z) в функции "public: void __thiscall FileTXT<class Party>::readTxt(class Party &)" (?readTxt@?$FileTXT@VParty@@@@QAEXAAVParty@@@Z).
+ConsoleApplication1.obj : error LNK2019: ссылка на неразрешенный внешний символ "class std::basic_ofstream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ofstream<char,struct std::char_traits<char> > &,class Party &)" (??6@YAAAV?$basic_ofstream@DU?$char_traits@D@std@@@std@@AAV01@AAVParty@@@Z) в функции "public: void __thiscall FileTXT<class Party>::writeTxt(class Party &)" (?writeTxt@?$FileTXT@VParty@@@@QAEXAAVParty@@@Z).
+E:\Learning\4-sem\OOP\7laba\Debug\ConsoleApplication1.exe : fatal error LNK1120: неразрешенных внешних элементов: 2
